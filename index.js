@@ -15,7 +15,6 @@ function towerBuilder(nFloors) {
         starsWithSpace=" ".repeat(howMuchSpaceNeededToOneSide)+stars+" ".repeat(howMuchSpaceNeededToOneSide);
         building.push(starsWithSpace);
         document.querySelector("#result").innerHTML+=starsWithSpace+"<br>";
-        console.log(howMuchSpaceNeededToOneSide);
     }
 
     document.querySelector("#theResultSorFloor").textContent+=` for ${nFloors} floors:`;
